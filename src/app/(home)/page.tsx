@@ -1,14 +1,9 @@
 import { Metadata } from "next";
-import KakaoMap from "../../component/Map";
-import Weather from "../../component/Weather";
+import styles from "../../styles/home.module.css";
 export const metadata: Metadata = {
   title: "Home",
 };
+
 export default function Home() {
-  return (
-    <div>
-      <KakaoMap />
-      <Weather />
-    </div>
-  );
+  return <div className={styles.wrapper}>여기는 홈</div>;
 }
