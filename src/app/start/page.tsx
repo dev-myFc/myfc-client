@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "../../styles/start.module.css";
+import btnStyle from "../../styles/button.module.css";
 
 export default function Start() {
   return (
@@ -17,10 +18,10 @@ export default function Start() {
       </div>
       <div className={styles.bottom}>
         {" "}
-        <Link href={"/login"} className={styles.button}>
+        <Link href={"/login"} className={btnStyle.button}>
           로그인
         </Link>
-        <Link href={"/sign-up"} className={styles.button}>
+        <Link href={"/sign-up"} className={btnStyle.button}>
           회원가입
         </Link>
       </div>
