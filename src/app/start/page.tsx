@@ -16,6 +16,10 @@ export default function Start() {
           팀원을 초대해 보세요
         </div>
       </div>
+      <div className={styles.middle}>
+        <div className={styles.line}></div>
+        <div className={styles.circle}></div>
+      </div>
       <div className={styles.bottom}>
         {" "}
         <Link href={"/login"} className={btnStyle.button}>
