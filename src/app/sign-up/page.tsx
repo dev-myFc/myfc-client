@@ -16,6 +16,11 @@ export default function SignUp() {
     <div className={styles.wrapper}>
       <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
         <input
+          type="name"
+          placeholder="이름을 입력하세요"
+          className={styles.input}
+        ></input>
+        <input
           type="tel"
           placeholder="전화번호를 입력하세요"
           className={styles.input}
@@ -25,6 +30,7 @@ export default function SignUp() {
           placeholder="비밀번호를 입력하세요"
           className={styles.input}
         ></input>
+
         <input
           type="submit"
           value={"회원가입하기"}

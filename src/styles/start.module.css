@@ -40,11 +40,11 @@
 }
 
 .middle {
-  width: 100%;
+  width: 99%;
   height: 20%;
   position: relative;
   border: 2px solid black;
-  margin: 0 auto; /* 수평 가운데 정렬 */
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
